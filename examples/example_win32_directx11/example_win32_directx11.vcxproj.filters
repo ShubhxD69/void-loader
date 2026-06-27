@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0587d7a3-f2ce-4d56-b84f-a0005d3bfce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{a1b2c3d4-e5f6-7890-abcd-ef1234567890}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_win32.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_dx11.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_settings.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_edited.hpp">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\auth.hpp" />
+    <ClInclude Include="auth\skStr.h" />
+    <ClInclude Include="keyauthprotectoxcy.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="Test.h" />
+    <ClInclude Include="Keyauth.h" />
+    <ClInclude Include="wic_texture_loader.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\json.hpp" />
+    <ClInclude Include="auth\utils.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_win32.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_dx11.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_edited.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="wic_texture_loader.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\misc\debuggers\imgui.natvis">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="..\..\misc\debuggers\imgui.natstepfilter">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="resources.aps" />
+    <None Include="build_simple.bat" />
+    <None Include="build_win32.bat" />
+    <None Include="imgui.ini" />
+    <None Include="src\VOID XITERS INTERNAL.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="auth\library_x64.lib" />
+    <Library Include="auth\libcurl.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources.rc" />
+  </ItemGroup>
+</Project>
